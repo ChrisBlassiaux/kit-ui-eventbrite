@@ -13,7 +13,7 @@
 → Ce projet a été créé le 19/05/2020 durant ma formation chez The Hacking Project.
 
 ## :eyes:  Aperçu ?
-lien
+https://chrisblassiaux.github.io/kit-ui-eventbrite/
 
 ## :computer:  Que contient ce projet ?
 

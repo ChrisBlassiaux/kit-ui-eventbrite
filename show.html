@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventbrite - Header</title>
+    <title>Eventbrite - Show</title>
 
     <!-- Bootstrap CDN-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -23,13 +23,13 @@
 
         <nav class="navbar navbar-dark bg-primary">
           <a href="index.html" class="text-white">Home</a>
-          <a href="navbar.html" class="active">Navbar</a>
+          <a href="navbar.html" class="text-white">Navbar</a>
           <a href="footer.html" class="text-white">Footer</a>
           <a href="form.html" class="text-white">Form</a>
           <a href="banner.html" class="text-white">Banner</a>
           <a href="card.html" class="text-white">Card</a>
           <a href="comment.html" class="text-white">Comment</a>
-          <a href="show.html" class="text-white">Show</a>
+          <a href="show.html" class="active">Show</a>
           <a href="element.html" class="text-white">Element</a>
         </nav>
       </div>
@@ -37,33 +37,23 @@
     
     <main class="main">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Eventbrite - Cambrai</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarColor03">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Céer un évènement</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav right">
-        
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Se connecter / S'inscrire
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <div class="dropdown-item"><a href="#">Se connecter</a></div>
-                  <div class="dropdown-item"> <a href="#">S&#39;inscrire</a> </div>
-                </div> 
-              </li>
-            </ul>
+        <div class="row">
+          <div class="col-8">
+            <img src="https://via.placeholder.com/500" class="w-100" alt="...">
           </div>
-        </nav>
-      
+          <div class="col-4">
+            <h2>Titre</h2>
+            <p>A cet endroit la description de l'évènement.</p>
+            <p>Créateur: author@author.com</p>
+            <p>Date : 15 Janvier 2020 - 15h45</p>
+            <p>Lieu : Lille</p>
+            <p>Prix : 25€</p>
+            <button class="btn btn-primary mt-auto">Rejoindre</button>
+            <div>
+
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
@@ -72,7 +62,6 @@
       <footer id="footer">
         <div class="row">
           <div class="col-lg-12">
-  
             <ul class="list-unstyled">
               <li class="float-lg-right"><a href="#">Back to top</a></li>
               <a href="https://www.instagram.com/chris.blassiaux/?hl=fr">Instagram</a>

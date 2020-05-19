@@ -10,6 +10,46 @@
   background-color: var(--primary);
 }
 
+.active {
+  color: #000;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #FFF;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #000;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.form {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+
+.banner_small {
+  background: url(img/event.jpg);
+}
+
+.link-right {
+  margin: 0 0 0 auto;
+}
+
+.card {
+  margin: 0 auto;
+}
+
 .main {
   margin-top: 200px;
   padding-top: 50px;

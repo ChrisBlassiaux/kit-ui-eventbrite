@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventbrite - Kit UI</title>
+    <title>Eventbrite - Header</title>
 
     <!-- Bootstrap CDN-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -21,7 +22,8 @@
         <p>Une application web où les gens peuvent organiser des évènements.</p>
 
         <nav class="navbar navbar-dark bg-primary">
-          <a href="navbar.html" class="text-white">Navbar</a>
+          <a href="index.html" class="text-white">Home</a>
+          <a href="navbar.html" class="active">Navbar</a>
           <a href="footer.html" class="text-white">Footer</a>
           <a href="form.html" class="text-white">Form</a>
           <a href="banner.html" class="text-white">Banner</a>
@@ -32,6 +34,33 @@
     
     <main class="main">
       <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Eventbrite - Cambrai</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Céer un évènement</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav right">
+        
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Se connecter / S'inscrire
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <div class="dropdown-item"><a href="#">Se connecter</a></div>
+                  <div class="dropdown-item"> <a href="#">S&#39;inscrire</a> </div>
+                </div> 
+              </li>
+            </ul>
+          </div>
+        </nav>
+      
       </div>
     </main>
 

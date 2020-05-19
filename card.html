@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventbrite - Cards</title>
+
+    <!-- Bootstrap CDN-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <h1 class="text-white">Eventbrite</h1>
+        <h2>Documentation - Kit UI</h2>
+        <p>Une application web où les gens peuvent organiser des évènements.</p>
+
+        <nav class="navbar navbar-dark bg-primary">
+          <a href="index.html" class="text-white">Home</a>
+          <a href="navbar.html" class="text-white">Navbar</a>
+          <a href="footer.html" class="text-white">Footer</a>
+          <a href="form.html" class="text-white">Form</a>
+          <a href="banner.html" class="text-white">Banner</a>
+          <a href="card.html" class="active">Card</a>
+        </nav>
+      </div>
+    </header>
+    
+    <main class="main">
+      <div class="container">
+        <!-- card 1 -->
+        <div class="card mb-3 w-50">
+          <h3 class="card-header">Apéro avec Jean</h3>
+          <img style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image">
+          <div class="card-body">
+            <p class="card-text">La description de l'évènement se palce ici.</p>
+          </div>
+          <div class="card-footer text-muted">
+            10 Juin 2021
+            <a href="#" class="card-link link-right ml-2">Voir plus</a>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="my-3 p-3 bg-white rounded box-shadow">
+          <h6 class="border-bottom border-gray pb-2 mb-0">Participants</h6>
+          <div class="media text-muted pt-3">
+            <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <strong class="text-gray-dark">Full Name</strong>
+              </div>
+            </div>
+          </div>
+          <div class="media text-muted pt-3">
+            <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+            <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <strong class="text-gray-dark">Full Name</strong>
+              </div>
+            </div>
+          </div>
+          <small class="d-block text-right mt-3">
+            <a href="#">Tous les participants</a>
+          </small>
+        </div>
+  
+      </div>
+    </main>
+
+    <div class="container mt-5">
+      <hr>
+      <footer id="footer">
+        <div class="row">
+          <div class="col-lg-12">
+  
+            <ul class="list-unstyled">
+              <li class="float-lg-right"><a href="#">Back to top</a></li>
+              <a href="https://www.instagram.com/chris.blassiaux/?hl=fr">Instagram</a>
+              <a href="https://github.com/ChrisBlassiaux">GitHub</a>
+            </ul>
+            <p>Edit by <a href="http://chrisb.fr/">Chris Blassiaux</a> for Eventbrite project.</p>
+            <p>Original Theme Made by <a href="https://thomaspark.co">Thomas Park</a>.</p>
+          </div>
+        </div>
+  
+      </footer>
+    </div>
+   
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventbrite - Footer</title>
+
+    <!-- Bootstrap CDN-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <h1 class="text-white">Eventbrite</h1>
+        <h2>Documentation - Kit UI</h2>
+        <p>Une application web où les gens peuvent organiser des évènements.</p>
+
+        <nav class="navbar navbar-dark bg-primary">
+          <a href="index.html" class="text-white">Home</a>
+          <a href="navbar.html" class="text-white">Navbar</a>
+          <a href="footer.html" class="text-white">Footer</a>
+          <a href="form.html" class="active">Form</a>
+          <a href="banner.html" class="text-white">Banner</a>
+          <a href="card.html" class="text-white">Card</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <form _lpchecked="1" class="form">
+          <fieldset>
+            <legend class="mb-4">Connectez vous à Eventbrite</legend>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Adresse email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@email.com" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+            </div>
+            <div class="form-group  mb-4">
+              <label for="exampleInputPassword1">Mot de passe</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIUlEQVQ4EX2TOYhTURSG87IMihDsjGghBhFBmHFDHLWwSqcikk4RRKJgk0KL7C8bMpWpZtIqNkEUl1ZCgs0wOo0SxiLMDApWlgOPrH7/5b2QkYwX7jvn/uc//zl3edZ4PPbNGvF4fC4ajR5VrNvt/mo0Gr1ZPOtfgWw2e9Lv9+chX7cs64CS4Oxg3o9GI7tUKv0Q5o1dAiTfCgQCLwnOkfQOu+oSLyJ2A783HA7vIPLGxX0TgVwud4HKn0nc7Pf7N6vV6oZHkkX8FPG3uMfgXC0Wi2vCg/poUKGGcagQI3k7k8mcp5slcGswGDwpl8tfwGJg3xB6Dvey8vz6oH4C3iXcFYjbwiDeo1KafafkC3NjK7iL5ESFGQEUF7Sg+ifZdDp9GnMF/KGmfBdT2HCwZ7TwtrBPC7rQaav6Iv48rqZwg+F+p8hOMBj0IbxfMdMBrW5pAVGV/ztINByENkU0t5BIJEKRSOQ3Aj+Z57iFs1R5NK3EQS6HQqF1zmQdzpFWq3W42WwOTAf1er1PF2USFlC+qxMvFAr3HcexWX+QX6lUvsKpkTyPSEXJkw6MQ4S38Ljdbi8rmM/nY+CvgNcQqdH6U/xrYK9t244jZv6ByUOSiDdIfgBZ12U6dHEHu9TpdIr8F0OP692CtzaW/a6y3y0Wx5kbFHvGuXzkgf0xhKnPzA4UTyaTB8Ph8AvcHi3fnsrZ7Wore02YViqVOrRXXPhfqP8j6MYlawoAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: pointer;">
+            </div>
+            <div class="custom-control custom-checkbox  mb-4">
+              <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+              <label class="custom-control-label" for="customCheck1">Se souvenir de moi</label>
+            </div>
+          <button type="submit" class="btn btn-primary mb-3">Se connecter</button>
+          <small id="emailHelp" class="form-text text-muted">En cliquant sur « Se connecter », j'accepte les <a href="#"> Conditions Générales Du Service</a>, les  <a href="#">Règles De La Communauté</a> d'Eventbrite, et j'ai lu la <a href="#">Politique De Confidentialité</a> d'Eventbrite.</small>
+          
+        </form>
+      </div>
+    </main>
+
+    <div class="container mt-5">
+      <hr>
+      <footer id="footer">
+        <div class="row">
+          <div class="col-lg-12">
+  
+            <ul class="list-unstyled">
+              <li class="float-lg-right"><a href="#">Back to top</a></li>
+              <a href="https://www.instagram.com/chris.blassiaux/?hl=fr">Instagram</a>
+              <a href="https://github.com/ChrisBlassiaux">GitHub</a>
+            </ul>
+            <p>Edit by <a href="http://chrisb.fr/">Chris Blassiaux</a> for Eventbrite project.</p>
+            <p>Original Theme Made by <a href="https://thomaspark.co">Thomas Park</a>.</p>
+          </div>
+        </div>
+  
+      </footer>
+    </div>
+   
+  </body>
+</html>
